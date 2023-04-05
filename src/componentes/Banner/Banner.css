@@ -1,0 +1,42 @@
+.banner__secao{
+    background-color: #335183;
+}
+
+.banner__imagem{
+    max-width: 100%;
+}
+
+.banner__chamada{
+    padding: 16px;
+    background-color: #335183;
+}
+
+.banner__texto{
+    color: #ffce00;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner__titulo{
+    color: #FFF;
+}
+
+.banner__titulo--amarelo{
+    color: #ffce00;
+}
+
+@media screen and (min-width: 768px){
+    .banner__texto{
+        font-size: 24px;
+    }
+
+    .banner__titulo{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 998px){
+    .banner__imagem{
+        width: 100%;
+    }
+}
